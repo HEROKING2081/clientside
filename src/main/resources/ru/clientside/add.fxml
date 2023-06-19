@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.clientside.controller.AddController">
+   <children>
+      <Button fx:id="save" layoutX="230.0" layoutY="338.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="139.0" text="Сохранить" />
+      <TextField fx:id="number" layoutX="54.0" layoutY="97.0" prefHeight="25.0" prefWidth="186.0" promptText="номер вагона, например 1234" />
+      <TextField fx:id="axialLoad" layoutX="338.0" layoutY="175.0" prefHeight="25.0" prefWidth="186.0" promptText="осевая нагрузка, тонн" />
+      <TextField fx:id="wagonWeight" layoutX="54.0" layoutY="175.0" prefHeight="25.0" prefWidth="186.0" promptText="вес пустого вагона, тонн" />
+      <TextField fx:id="loadCapacity" layoutX="338.0" layoutY="97.0" prefHeight="25.0" prefWidth="186.0" promptText="грузоподъемность, тонн" />
+      <TextField fx:id="type" layoutX="54.0" layoutY="244.0" prefHeight="25.0" prefWidth="186.0" promptText="тип, например Вагон-цистерна" />
+      <TextField fx:id="wagonLocation" layoutX="338.0" layoutY="244.0" prefHeight="25.0" prefWidth="186.0" promptText="текущее местоположение" />
+      <Label layoutX="180.0" layoutY="24.0" text="Добавление вагона">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
